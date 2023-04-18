@@ -2,13 +2,33 @@
      --vermelho: #D00000;
      --preto: #03071E;
      --branco: #FFFFFF;
-     
+     --azulfraco: #BDE0FE;
 
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
 .cabecalho{
     background-color: var(--preto);
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 55px;
+    color: #FFFFFF;
+    font-size: 20px;
 }
 .logo{
-    width: 
+    width: 10%;
+    margin: 10px; 
+ }
+
+ .principal{
+     background-color: var(--branco);
+
  }
